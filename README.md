@@ -82,6 +82,8 @@ uvicorn main:app --reload
 
 Now, visit: http://localhost:8000
 
+---
+
 ## ✏️ Usage
 Navigate to / to view the dashboard.
 
@@ -91,11 +93,15 @@ Each entry shows: description, amount, category, and timestamp.
 
 Click "Delete" to remove any record.
 
+---
+
 ## 💾 Data Persistence
 
 Expenses are stored in expenses.db (SQLite).
 
 The DB is created automatically on first run using init_db().
+
+---
 
 ## ✅ Requirements
 Python 3.8+
@@ -106,14 +112,19 @@ Uvicorn
 
 Jinja2
 
+---
+
 ## 📦 You can install all dependencies with:
 
 pip install fastapi uvicorn jinja2 python-multipart
 
+---
 
 ## 🙋‍♂️ Author
 
 Made with ❤️ by Nithin P (brightsun10)
+
+---
 
 📄 License
 This project is open-source under the MIT License.
